@@ -1,0 +1,11 @@
+main {
+    height: 100%;
+    padding: 3rem 0;
+  }
+  article {
+    width: 600px;
+    max-width: calc(100% - (140px + 0.5rem));
+    padding: 0 1rem 0;
+    overflow: hidden;
+  }
+

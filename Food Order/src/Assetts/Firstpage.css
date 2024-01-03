@@ -1,0 +1,185 @@
+.bodyy
+{
+    background-image: url(./Logo.avif);
+    background-size: cover;
+}
+.intro
+{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; 
+  text-align: center;
+  background-color: #131313;
+  opacity: 70%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+.titlehead{
+    color: white;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #B21807;
+    padding: 20px 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo{
+    text-decoration: none;
+    color:white ;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #cdcdcd;
+    
+}
+.home
+{
+    transition: 0.3s;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+   color:white;
+   cursor :pointer;
+   
+
+}
+.about
+{
+    transition: 0.3s;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about:hover{
+    transform: scale(1.2);
+    overflow: hidden;  
+    color:white;
+    cursor :pointer;
+
+}
+.service{
+    transition: 0.3s;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.service:hover{
+    transform: scale(1.2);
+    overflow: hidden;   
+    color:white;
+    cursor :pointer;
+}
+.contact{
+    transition: 0.3s;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact:hover{
+    transform: scale(1.2);
+    overflow: hidden;   
+    color:white;
+    cursor :pointer;
+}
+.cart{
+    transition: 0.3s;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cart:hover{
+    transform: scale(1.2);
+    overflow: hidden;   
+    color:white;
+    cursor :pointer;
+}
+.rest{
+    transition: 0.3s;
+    font-size:23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rest:hover{
+    transform: scale(1.2);
+    overflow: hidden;   
+    color:white;
+    cursor :pointer;    
+}
+.nav-list li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+.btn{
+    margin-right: 20px;
+    margin-left: 0px;
+    border: none;
+    padding: 5px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    cursor: grab;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+
+
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 40px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 20%;
+   margin-right: 15%;
+    border-radius: 20px;
+}
+
+.image {
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+  }
+  .image:hover {
+    transform: scale(1.2); 
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block; 
+  }
+  
