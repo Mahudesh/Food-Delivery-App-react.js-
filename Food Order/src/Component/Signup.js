@@ -1,50 +1,45 @@
-import React, {useState} from 'react'
-import '../Assetts/Signup.css'
+import React, { useState } from 'react';
+import '../Assetts/Signup.css';
 import { Link, useNavigate } from 'react-router-dom';
 
-const Signup=()=>
-{
-    const nav=useNavigate();
-    const[password,setpassword] = useState('');
-    const[cpassword,setcpassword] = useState('');
+const Signup = () => {
+    const nav = useNavigate();
+    const [password, setPassword] = useState('');
+    const [cpassword, setCPassword] = useState('');
 
-    const handlesignup=(e)=>
-    {
+    const handleSignup = (e) => {
         e.preventDefault();
-        if(password === cpassword && (password!=='' || cpassword!==''))
-        {
+        if (password === cpassword && (password !== '' || cpassword !== '')) {
             nav('/Landingpage');
+        } else {
+            alert("Verify your password");
         }
-        else
-        {
-            alert("Verify ur password");
-        }
-        
     }
 
-    return(
-        <body className='Signupbody'>
-        <form class="container2">
-        <h2 className='text'>Sign Up</h2>
+    return (
+        <div className='Signupbody'>
+            <form className="container2">
+                <h2 className='text'>Sign Up</h2>
 
-        <input type="text" name="" id="name" className="name" placeholder="   Name" required/>
+                <input type="text" name="" id="name" className="name" placeholder="   Name" required />
 
-        <input type="tel" name="" id="phone" className="name"  placeholder="   Phone No" required/>
+                <input type="tel" name="" id="phone" className="name" placeholder="   Phone No" required />
 
-        <input type="number" name="" id="age" className="name"  placeholder="    Age" required/>
+                <input type="number" name="" id="age" className="name" placeholder="    Age" required />
 
-        <input type="email" name="" id="email" className="name"  placeholder="    Email" required/>
+                <input type="email" name="" id="email" className="name" placeholder="    Email" required />
 
-        <input type="password" name="" id="pass1" value={password} onChange={(e) => setpassword(e.target.value)} className="name"  placeholder="    Password" required/>
-        <input type="password" name="" id="pass2" value={cpassword} onChange={(e) => setcpassword(e.target.value)} className="name"  placeholder="    Confirm Password" required/>
+                <input type="password" name="" id="pass1" value={password} onChange={(e) => setPassword(e.target.value)} className="name" placeholder="    Password" required />
+                <input type="password" name="" id="pass2" value={cpassword} onChange={(e) => setCPassword(e.target.value)} className="name" placeholder="    Confirm Password" required />
 
-
-        <input type="text" name="" id="Address" className="name"  placeholder="    Address" required/>
-        <Link to='/'>
-        <button class="submit" onClick={handlesignup}>Sign Up</button>
-        </Link>
-    </form>
-    </body>
+                <input type="text" name="" id="Address" className="name" placeholder="    Address" required />
+                
+                <Link to='/'>
+                    <button className="submit" onClick={handleSignup}>Sign Up</button>
+                </Link>
+            </form>
+        </div>
     );
 }
+
 export default Signup;
