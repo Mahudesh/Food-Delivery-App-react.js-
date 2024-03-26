@@ -21,7 +21,6 @@ function App()
         <Route path='/Privacy' element={<Privacy/>}/>
         <Route path='/Signup' element={<Signup/>}/>
         <Route path='/Terms' element={<Terms/>}/>
-        <Route path='/Contactus' element={<Contactus/>}/>
         <Route path='/Aboutus' element={<Aboutus/>}/>
         <Route path='/Landingpage' element={<Landingpage/>}/>
       </Routes>
