@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0871a77.css",
+    "main.js": "/static/js/main.f33b8a36.js",
+    "static/js/787.66f00e7e.chunk.js": "/static/js/787.66f00e7e.chunk.js",
+    "static/media/WhatsApp Image 2023-12-13 at 10.11.46_7a0c7ef2.jpg": "/static/media/WhatsApp Image 2023-12-13 at 10.11.46_7a0c7ef2.f42ce73f371e7f5db463.jpg",
+    "static/media/Logo.avif": "/static/media/Logo.ff69443aa67948966dea.avif",
+    "static/media/KFCnew.avif": "/static/media/KFCnew.3d74c71a206fd05794a2.avif",
+    "static/media/HMR.avif": "/static/media/HMR.c8d42f5a92b91369a249.avif",
+    "static/media/Annnapoorna.avif": "/static/media/Annnapoorna.e00414cee767b773c725.avif",
+    "static/media/Haribhavanam2.avif": "/static/media/Haribhavanam2.28d0774df4dc22b9b0e0.avif",
+    "static/media/Taco Bell.avif": "/static/media/Taco Bell.3bdaeb7659246c860561.avif",
+    "static/media/Meatandeat.avif": "/static/media/Meatandeat.b7587fdcf1c24f70ff68.avif",
+    "static/media/Pizzahut.avif": "/static/media/Pizzahut.cc88dc1aba5392f620bb.avif",
+    "static/media/Kwality.avif": "/static/media/Kwality.8534bf56d65a7541e4df.avif",
+    "static/media/Baskin.avif": "/static/media/Baskin.612dbe9a6501b37f306d.avif",
+    "index.html": "/index.html",
+    "main.f0871a77.css.map": "/static/css/main.f0871a77.css.map",
+    "main.f33b8a36.js.map": "/static/js/main.f33b8a36.js.map",
+    "787.66f00e7e.chunk.js.map": "/static/js/787.66f00e7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0871a77.css",
+    "static/js/main.f33b8a36.js"
+  ]
+}
